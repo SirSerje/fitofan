@@ -1,0 +1,18 @@
+:root {
+    --main-background: #151515;
+    --border-color: #222222;
+
+    --main-font-color: #E0E3E7;
+    --secondary-font-color: #757575;
+
+    --link-default-color:#757575;
+    --link-active-color: #E0E3E7;
+
+
+    --l-1: 1px;
+    --l-2: 2px;
+    --l-4: 4px;
+    --l-8: 8px;
+    --l-16: 16px;
+    --l-32: 32px;
+}

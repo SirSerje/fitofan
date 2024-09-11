@@ -1,0 +1,18 @@
+.day-header {
+    /* //styleName: Title/Small; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+
+
+    background-color: var(--border-color);
+    padding-top: var(--l-4);
+    padding-bottom: var(--l-4);
+
+    span {
+        padding-top: var(--l-2);
+        padding-bottom: var(--l-2);
+    }
+}
