@@ -6,7 +6,7 @@
 2. `npm i`
 3. `npm run start`
 
-![Screenshot](./bannekat.png).
+![Screenshot](./image.png).
 
 ### Notes: 
  - plain css
