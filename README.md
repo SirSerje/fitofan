@@ -6,6 +6,8 @@
 2. `npm i`
 3. `npm run start`
 
+![Screenshot](./bannekat.png).
+
 ### Notes: 
  - plain css
  - logo hidden because repo is public
