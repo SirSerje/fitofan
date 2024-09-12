@@ -1,4 +1,5 @@
 .cell {
+    min-height: 68px;
     display: flex;
     flex-direction: row;
 
@@ -35,14 +36,14 @@
             text-align: left;
         }
 
-        padding-top: var(--l-4);
-        padding-bottom: var(--l-4);
+        padding-top: var(--l-8);
+        padding-bottom: var(--l-8);
 
         display: flex;
         flex-direction: column;
         align-items: flex-start;
 
-        gap: var(--l-8);
+        gap: var(--l-4);
         padding-left: var(--l-8);
         padding-right: var(--l-8);
     }

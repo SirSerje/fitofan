@@ -18,7 +18,10 @@
     text-decoration: none;
     color: var(--link-default-color);    /* Set the default link color to yellow */
     margin: 0 10px;
-
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     /* Font styling */
     font-family: Roboto;
     font-size: 14px;
@@ -37,9 +40,22 @@
 }
 
 .profile {
-    width: 80px;
-    height: 40px;
     border-radius: 10px;
     border-style: solid;
     border-color: var(--border-color);
+    display: flex;flex-direction:row;
+
+    .avatar {
+        width: 24px;
+        height: 24px;
+
+        padding: 8px;
+    }
+    .expand-icon {
+        border: 1px solid #000F00;
+        width: 24px;
+        height: 24px;
+
+        padding: 8px;
+    }
 }

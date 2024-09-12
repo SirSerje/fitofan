@@ -1,5 +1,11 @@
 .calendar {
-    background-color: var(--main-background);
-    border-radius: 10px;
-    border-color: var(--border-color)
+  background-color: var(--main-background);
+  border-radius: 10px 10px 0 0;
+  border-color: var(--border-color);
+  height: 628px;
+  overflow: hidden;
+}
+
+.calendar::-webkit-scrollbar {
+  display: none;
 }

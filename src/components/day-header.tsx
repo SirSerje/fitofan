@@ -1,9 +1,13 @@
 import './day-header.css'
-
-export const DayHeader = () => {
+interface Props {
+  current?: boolean;
+}
+export const DayHeader = ({current}: Props) => {
   return (
     <div className="day-header">
-      <span>Tue 26</span>
+      <span className="week-day">Tue</span>
+      <div
+      className={current?'current-day':''}>26</div>
     </div>
   );
 };

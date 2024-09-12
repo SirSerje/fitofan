@@ -11,5 +11,25 @@
     align-content: center;
     align-items: center;
     justify-content: space-around;
-
+    .custom-input {
+        height: 40px;
+        width: auto;
+        min-width: 200px;
+        max-width: 579px; /* assuming Fill means max-width */
+        gap: 4px; /* Usually not applicable to input elements, but included per request */
+        border-radius: 5px 0 0 0;
+        border-width: 1px 0 0 0;
+        border-style: solid;
+        border-color: #3A3A3A;
+        opacity: 1;
+        padding: 4px;
+      }
+      
+      /* On click: Open overlay, Animation: Instant */
+      .custom-input:focus {
+        outline: none;
+        transition: none; /* No animation */
+      }
+      
+      /* If there's an overlay logic, it can be handled in JavaScript or another component */
 }
