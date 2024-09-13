@@ -4,7 +4,7 @@
 ## Run:
 1. clone repo
 2. `npm i`
-3. `npm run start`
+3. `npm run dev`
 
 ![Screenshot](./image.png).
 
